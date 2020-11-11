@@ -26,3 +26,10 @@ Using infrastructure as Code tools. Let's create a 2 tier architecture setup con
 Sample video output can be found out for Google Cloud Platform [here](https://youtu.be/EE1Z_9F98vU) :
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=EE1Z_9F98vU" target="_blank"><img src="http://img.youtube.com/vi/EE1Z_9F98vU/0.jpg" alt="IMAGE ALT TEXT HERE" width="530" height="360" /></a>
+
+### GCP Terraform
+
+choose your GCP cloud prpvider (Instructions Here:)
+
+* [GCP-Terraform](#gcp-terraform)
+
