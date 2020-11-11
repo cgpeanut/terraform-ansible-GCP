@@ -65,11 +65,15 @@ $ curl https://sdk.cloud.google.com | bash
 ````
 $ sudo chown -R ${USER} /home/${USER}/.config/gcloud
 ````
-7. Use the below command to verify gcloud cli with your account:
 
+7. Use the below command to verify gcloud cli with your account:
 ````
 $ sudo gcloud auth login
 ````
-You can now check gcloud cli working by running any of the gcloud available commands such as gcloud compute machine-types list etc.
+Check that the gcloud cli is working properly by running any of the gcloud available commands such as gcloud compute machine-types list etc.
+````
+$ gcloud compute lists instances
+````
 
 8. Now you can run your commands to kickstart 3 vm instaces (sample1,sample2,sample3) using 
+
