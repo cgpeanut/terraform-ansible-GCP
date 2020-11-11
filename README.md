@@ -187,6 +187,3 @@ $ ansible all -m ping --ask-pass --ask-sudo-pass
 ````
 sudo ansible-playbook <NAME>.yml --private-key = <NAME-OF-FILE>
 ````
-## License
-
-MIT License
