@@ -1,3 +1,6 @@
+#  ignore .ssh
+**/.ssh/*
+
 #  Local .terraform directories
 **/.terraform/*
 
