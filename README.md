@@ -73,6 +73,7 @@ $ sudo gcloud auth login
 Check that the gcloud cli is working properly by running any of the gcloud commands such as gcloud compute lists instances.
 ````
 $ gcloud compute lists instances
+$ gcloud beta compute ssh --zone "us-central1-c" "controlnodeone" --project "terraformgcp-294600"
 ````
 
 8. Now you can run your commands to kickstart 3 vm instaces (sample1,sample2,sample3) using 
