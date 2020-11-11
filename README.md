@@ -39,3 +39,17 @@ Click link below for detailed GCP instructions on Terraform and Ansible setup in
 
 **Google Cloud Dashboard -> IAM & Admin -> Service Accounts -> Choose a Service Account -> Options -> Create Key**
 
+2. Download this json key and keep it under 
+
+**terraform-ansible-setup -> GCP -> YOUR-ACCOUNT-ID.JSON*
+
+*For my reference,I have name it as account.json in my variables.tf file*
+ 
+3. Connect your terminal with gcp via ssh using the following command:
+
+````
+$ sudo cat ~/.ssh/id_rsa.pub
+````
+4. Copy and Paste the above output at 
+
+**Google Cloud Dashboard -> Compute Engine -> Metadata -> SSH Keys -> Add New Key*
