@@ -164,17 +164,6 @@ hosts: azure
 | consul.yml    | *Nil     *                        | *Nil*                                      |  *Nil*                                  |
 | k8s.yml       | *export KUBERNETES_PROVIDER=aws*  | *export KUBERNETES_PROVIDER=gce*           | *export KUBERNETES_PROVIDER=azure*      |
 
-  * [AWS](aws)
-  
-  You can start by setting up your aws enviornment EC2 instance using ec2-configure.yml playbook present in playbooks directory,using the below command:
-
-```` 
-$ ansible all -m ping --ask-pass --ask-sudo-pass
-````
-  
-````
-$ sudo ansible-playbook ec2-configure.yml -vv --private-key  <path-to-keypair>
-````
   
   * [GCP](gcp)
 
