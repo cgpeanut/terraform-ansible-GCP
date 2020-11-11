@@ -29,7 +29,7 @@ Sample video output can be found out for Google Cloud Platform [here](https://yo
 
 ### GCP Terraform
 
-choose your GCP cloud prpvider (Instructions Here:)
+Click link below for detaled GCP instructions on Terraform and Ansible setup in GCP.
 
 * [GCP-Terraform](#gcp-terraform)
 
