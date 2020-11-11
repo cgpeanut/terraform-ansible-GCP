@@ -1,6 +1,6 @@
 # Terraform and Ansible Setup in GCP
 Complete infrastructure on GCP using Infrastructure as a Code.
-
+roroxas
 ## Pre-reqs
 
 * Ansible
@@ -49,6 +49,7 @@ Click link below for detailed GCP instructions on Terraform and Ansible setup in
 
 ````
 $ sudo cat ~/.ssh/id_rsa.pub
+$ gcloud beta compute ssh --zone "us-central1-c" "controlnodeone" --project "terraformgcp-294600"
 ````
 4. Copy and Paste the above output at 
 
