@@ -29,7 +29,13 @@ Sample video output can be found out for Google Cloud Platform [here](https://yo
 
 ### GCP Terraform
 
-Click link below for detaled GCP instructions on Terraform and Ansible setup in GCP.
+Click link below for detailed GCP instructions on Terraform and Ansible setup in GCP.
 
 * [GCP-Terraform](#gcp-terraform)
+
+##### [GCP-Terraform](#gcp-terraform)
+
+1. We use a security key in JSON format in order to use the resources in GCP. To generate a security key follow:
+
+**Google Cloud Dashboard -> IAM & Admin -> Service Accounts -> Choose a Service Account -> Options -> Create Key**
 
